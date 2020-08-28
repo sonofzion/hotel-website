@@ -1,0 +1,49 @@
+#navbar ul li {
+    float: none;
+    text-align: center;
+}
+#navbar ul {
+    list-style: none;
+    float: none;
+    padding-bottom: 20px;
+}
+
+#navbar h1 {
+    float: none;
+    padding: 20px 0 0 0;
+    
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px 0;
+    /* text-align: center; */
+    color: #fff;
+    border-bottom: palegoldenrod dotted 1px;
+}
+.container {
+    text-align: center;
+}
+/* Home info */
+#home-info {
+    height: 450px;
+    margin-bottom: 10px;
+}
+#home-info .info-img {
+    display: none;
+    float: left;
+    width: 50%;
+    background: url('../img/hotel_in2.jpg') no-repeat;
+    min-height: 100%;
+    
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+#home-info .info-content p {
+    padding-bottom: 30px;
